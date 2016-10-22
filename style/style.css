@@ -1,0 +1,122 @@
+
+  .mdl-button--header {
+    color: white;
+  }
+
+  .mdl-navigation__link.is-active {
+    background-color: #e0e0e0;
+    color: #6a6a5a !important;
+  }
+
+.waterfalls_link {
+		background: url(http://nashural.ru/data-map/icons/waterfalls.png);
+    background-repeat: no-repeat;
+    padding-left: 70px !important;
+    background-position: 10px 50%;
+    background-position-x: 10px;
+    background-position-y: 50%;
+		}
+		.mountains_link {
+		background: url(http://nashural.ru/data-map/icons/mountains.png);
+    background-repeat: no-repeat;
+    padding-left: 70px !important;
+    background-position: 10px 50%;
+    background-position-x: 10px;
+    background-position-y: 50%;
+		}
+		.rivers_link {
+		background: url(http://nashural.ru/data-map/icons/rivers.png);
+    background-repeat: no-repeat;
+    padding-left: 70px !important;
+    background-position: 10px 50%;
+    background-position-x: 10px;
+    background-position-y: 50%;
+		}
+		.caves_link {
+		background: url(http://nashural.ru/data-map/icons/caves.png);
+    background-repeat: no-repeat;
+    padding-left: 70px !important;
+    background-position: 10px 50%;
+    background-position-x: 10px;
+    background-position-y: 50%;
+		}
+		.towns_link {
+		background: url(http://nashural.ru/data-map/icons/towns.png);
+    background-repeat: no-repeat;
+    padding-left: 70px !important;
+    background-position: 10px 50%;
+    background-position-x: 10px;
+    background-position-y: 50%;
+		}
+		.architecture_link {
+		background: url(http://nashural.ru/data-map/icons/architecture.png);
+    background-repeat: no-repeat;
+    padding-left: 70px !important;
+    background-position: 10px 50%;
+    background-position-x: 10px;
+    background-position-y: 50%;
+		}
+		.mistika_link {
+		background: url(http://nashural.ru/data-map/icons/mistika.png);
+    background-repeat: no-repeat;
+    padding-left: 70px !important;
+    background-position: 10px 50%;
+    background-position-x: 10px;
+    background-position-y: 50%;
+		}
+		.museums_link {
+		background: url(http://nashural.ru/data-map/icons/museums.png);
+    background-repeat: no-repeat;
+    padding-left: 70px !important;
+    background-position: 10px 50%;
+    background-position-x: 10px;
+    background-position-y: 50%;
+		}
+		.monuments_link {
+		background: url(http://nashural.ru/data-map/icons/monuments.png);
+    background-repeat: no-repeat;
+    padding-left: 70px !important;
+    background-position: 10px 50%;
+    background-position-x: 10px;
+    background-position-y: 50%;
+		}
+		.parks_link {
+		background: url(http://nashural.ru/data-map/icons/parks.png);
+    background-repeat: no-repeat;
+    padding-left: 70px !important;
+    background-position: 10px 50%;
+    background-position-x: 10px;
+    background-position-y: 50%;
+		}
+		.carusel_link {
+		background: url(http://nashural.ru/data-map/icons/carusel.png);
+    background-repeat: no-repeat;
+    padding-left: 70px !important;
+    background-position: 10px 50%;
+    background-position-x: 10px;
+    background-position-y: 50%;
+		}
+		.religions_link {
+		background: url(http://nashural.ru/data-map/icons/religions.png);
+    background-repeat: no-repeat;
+    padding-left: 70px !important;
+    background-position: 10px 50%;
+    background-position-x: 10px;
+    background-position-y: 50%;
+		}
+		.mines_link {
+		background: url(http://nashural.ru/data-map/icons/mines.png);
+    background-repeat: no-repeat;
+    padding-left: 70px !important;
+    background-position: 10px 50%;
+    background-position-x: 10px;
+    background-position-y: 50%;
+		}
+		.thermae_link {
+		background: url(http://nashural.ru/data-map/icons/thermae.png);
+    background-repeat: no-repeat;
+    padding-left: 70px !important;
+    background-position: 10px 50%;
+    background-position-x: 10px;
+    background-position-y: 50%;
+		}
