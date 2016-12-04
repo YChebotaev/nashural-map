@@ -4,8 +4,7 @@ ymaps.ready(function() {
 
   ymaps.geoXml.load('http://nashural.ru/data.xml?v1.0.1')
     .then(function(res) {
-      window['res'] = res;
-      window['map'] = map = new ymaps.Map('map', {
+      map = new ymaps.Map('map', {
         center: [56.80671065838881, 60.54288274121081],
         zoom: 6,
         controls: []
@@ -110,6 +109,7 @@ ymaps.ready(function() {
         map.geoObjects.add(group);
       }
       $this.toggleClass('is-active', !isActive);
+      document.querySelector('.mdl-layout').MaterialLayout.toggleDrawer()
       event.preventDefault();
     }
   }
