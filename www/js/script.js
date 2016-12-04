@@ -4,7 +4,8 @@ ymaps.ready(function() {
 
   ymaps.geoXml.load('http://nashural.ru/data.xml?v1.0.1')
     .then(function(res) {
-      map = new ymaps.Map('map', {
+      window['res'] = res;
+      window['map'] = map = new ymaps.Map('map', {
         center: [56.80671065838881, 60.54288274121081],
         zoom: 6,
         controls: []
@@ -15,6 +16,7 @@ ymaps.ready(function() {
       $('#map-spinner').remove();
     })
     .catch(function(error) {
+      console.error(error);
       throw error;
     });
 
