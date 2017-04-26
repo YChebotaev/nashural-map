@@ -2,7 +2,7 @@ ymaps.ready(function() {
 
   var map;
 
-  ymaps.geoXml.load('http://nashural.ru/data.xml?v1.0.1')
+  ymaps.geoXml.load('http://o.nashural.ru/data.xml?v1.0.1')
     .then(function(res) {
       map = new ymaps.Map('map', {
         center: [56.80671065838881, 60.54288274121081],
