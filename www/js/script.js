@@ -109,7 +109,9 @@ ymaps.ready(function() {
         map.geoObjects.add(group);
       }
       $this.toggleClass('is-active', !isActive);
-      document.querySelector('.mdl-layout').MaterialLayout.toggleDrawer()
+      if (isMobile()) {
+        document.querySelector('.mdl-layout').MaterialLayout.toggleDrawer()
+      }
       event.preventDefault();
     }
   }
@@ -143,6 +145,14 @@ ymaps.ready(function() {
       window.location = attrs.href;
 
       event.preventDefault();
+    }
+  }
+
+  function isMobile() {
+    if (typeof matchMedia === 'function') {
+      return matchMedia("only screen and (max-width: 900px)").matches;
+    } else {
+      return false;
     }
   }
 });
